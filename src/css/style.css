@@ -10,3 +10,34 @@ body{
     list-style: none;
     font-family: Arial,Tahoma,sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+ul, li, a{
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header, img{
+    height: 85px;
+}
+
+
+
+.google, .twitter{
+    height: 18px;
+    width: 18px;
+}
+
+.qr, .user, .facebook{
+    height: 24px;
+    width: 24px;
+}
