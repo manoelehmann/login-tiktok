@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 100%;
+    inline-size: 100%;
     text-decoration: none;
     list-style: none;
     font-family: Arial,Tahoma,sans-serif;
@@ -15,11 +15,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
+    padding-block-end: 30px;
 }
 
 ul, li, a{
-    margin-right: 10px;
+    margin-inline-end: 10px;
     list-style: none;
     text-decoration: none;
     color: black;
@@ -27,17 +27,40 @@ ul, li, a{
 }
 
 header, img{
-    height: 85px;
+    block-size: 85px;
 }
 
-
-
 .google, .twitter{
-    height: 18px;
-    width: 18px;
+    block-size: 18px;
+    inline-size: 18px;
 }
 
 .qr, .user, .facebook{
-    height: 24px;
-    width: 24px;
+    block-size: 24px;
+    inline-size: 24px;
+}
+
+.t-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block-start: 70px;
+}
+
+.border{
+    border: 1px solid rgba(22, 24, 35, .12);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    justify-content: space-around;
 }
